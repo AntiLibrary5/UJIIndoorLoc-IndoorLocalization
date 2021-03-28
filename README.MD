@@ -9,6 +9,11 @@ utils: contains helper scripts <br>
 
 data: contains the dataset <br>
 
+#### NB:
+Download the dataset from https://archive.ics.uci.edu/ml/machine-learning-databases/00310/UJIndoorLoc.zip and extract trainingData.csv and validationData.csv to the data/ folder as: <br>
+- data/trainingData.csv
+- data/validationData.csv
+
 #### Tested with:
 Python: 3.7 <br>
 DataExploration.py is only for additional info but all details relevant are covered in Report_IndoorLoc.pdf. <br>
