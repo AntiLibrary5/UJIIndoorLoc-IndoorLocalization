@@ -1,7 +1,7 @@
 # UJIndoorLoc
 
 #### Folders description:
-models: contains relevant code for different NN models <br>
+models: contains relevant code for different NN models (manualNN.py: a NN from scratch; rest are tensorflow based models of varying complexity) <br>
 
 saved_models: contains .h5 tensorflow models that have been trained <br>
 
@@ -47,5 +47,3 @@ Train, save and evaluate models: >> python main.py --Train 1 --Name tf_smallDNN 
     - After saving Evaluates the model against LONGITUDE, LATITUDE, BUILDINGID and FLOOR prediction on test set and results are displayed on prompt <br>
 
 Load the saved models and evaluate them: >> python main.py --Train 0 --Name tf_smallDNN <br>
-
-DataExploration.py is only for additional info but all details relevant are covered in Report_IndoorLoc.pdf
